@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kids Camp Bettiah</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kids Camp Bettiah</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="hero">
-  <h1>🌟 Kids Camp Bettiah 🌟</h1>
-  <p>Where Little Minds Grow Big Dreams</p>
-  <a href="#enquiry" class="btn">Enquire Now</a>
+<header>
+  <div class="nav">
+    <h1>Kids Camp Bettiah</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="fees.html">Fees</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<section class="about">
-  <h2>About Our School</h2>
-  <p>
-    Kids Camp Bettiah is a caring and joyful preschool that focuses on
-    learning through play, creativity, and fun activities in a safe environment.
-  </p>
+<section class="slider">
+  <div class="slides">
+    <img src="images/slide1.jpg" alt="Kids playing" class="slide active">
+    <img src="images/slide2.jpg" alt="Classroom activity" class="slide">
+    <img src="images/slide3.jpg" alt="Happy children" class="slide">
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
 </section>
 
-<section class="programs">
-  <h2>Our Classes</h2>
-  <div class="cards">
-    <div class="card">🎈 Play Group</div>
-    <div class="card">🧸 Nursery</div>
-    <div class="card">✏️ LKG</div>
-    <div class="card">📘 UKG</div>
+<section class="features">
+  <h2>Why Choose Us</h2>
+  <div class="feature-cards">
+    <div class="feature">🏫 Safe & Caring Teachers</div>
+    <div class="feature">🎨 Creative Learning</div>
+    <div class="feature">⚽ Fun Activities</div>
+    <div class="feature">📍 Child-Friendly Campus</div>
   </div>
 </section>
 
-<section class="why">
-  <h2>Why Choose Us?</h2>
-  <ul>
-    <li>✅ Safe & caring teachers</li>
-    <li>✅ Activity-based learning</li>
-    <li>✅ Clean & child-friendly campus</li>
-    <li>✅ Focus on overall development</li>
-  </ul>
-</section>
-
-<section id="enquiry" class="enquiry">
-  <h2>Admission Enquiry</h2>
-  <p>Fill the form and we will contact you</p>
-
-  <!-- FORM -->
-  <form action="https://formspree.io/f/xxxxxx" method="POST">
-    <input type="text" name="parent_name" placeholder="Parent Name" required>
-    <input type="text" name="child_name" placeholder="Child Name" required>
-    <input type="number" name="age" placeholder="Child Age" required>
-    <input type="tel" name="phone" placeholder="Mobile Number" required>
-    <input type="email" name="email" placeholder="Email Address">
-    <textarea name="message" placeholder="Your Message"></textarea>
-    <button type="submit">Submit Enquiry</button>
-  </form>
+<section class="testimonials">
+  <h2>What Parents Say</h2>
+  <div class="testimonial active">"Amazing environment — my child loves going to school!"</div>
+  <div class="testimonial">"The teachers are caring and attentive."</div>
+  <div class="testimonial">"The school focuses on overall development."</div>
 </section>
 
 <footer>
-  <p>📍 Bettiah, Bihar</p>
-  <p>📞 +91-XXXXXXXXXX</p>
-  <p>© 2025 Kids Camp Bettiah</p>
+  <p>© 2025 Kids Camp Bettiah. All rights reserved.</p>
 </footer>
 
 <script src="script.js"></script>
