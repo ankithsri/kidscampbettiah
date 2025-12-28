@@ -1,8 +1,12 @@
 /* Base */
 body{margin:0;font-family:'Poppins',sans-serif;background:#fffaf0;color:#333;}
-header nav{padding:15px;background:#ffd166;text-align:center;}
-header nav a{margin:0 10px;text-decoration:none;color:#222;font-weight:bold;}
-.section{padding:40px 20px;text-align:center;}
+header nav{padding:15px;background:#ffd166;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,0.1);}
+header nav a{margin:0 12px;text-decoration:none;color:#222;font-weight:bold;transition:0.3s;}
+header nav a:hover{color:#06d6a0;}
+header nav a.active{color:#06d6a0;border-bottom:2px solid #06d6a0;}
+
+.section{padding:60px 20px;text-align:center;}
+h2{font-family:'Fredoka One',cursive;color:#06d6a0;margin-bottom:30px;}
 
 /* Hero */
 .hero{position:relative;height:90vh;background:linear-gradient(to bottom right,#ffafcc,#bde0fe);display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;overflow:hidden;}
@@ -15,7 +19,7 @@ header nav a{margin:0 10px;text-decoration:none;color:#222;font-weight:bold;}
 @keyframes float{to{transform:translateY(-20px);}}
 
 /* Slider */
-.slider{margin-top:20px;(max-width:90%);overflow:hidden;border-radius:15px;}
+.slider{margin-top:20px;max-width:90%;overflow:hidden;border-radius:15px;position:relative;}
 .slide{display:none;width:100%;border-radius:15px;}
 .slide.active{display:block;}
 .prev, .next{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,0.4);color:#fff;border:none;padding:10px;border-radius:50%;cursor:pointer;}
