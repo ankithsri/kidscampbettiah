@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kids Camp Bettiah</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Kids Camp Bettiah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>🌈 Kids Camp Bettiah 🌈</h1>
-    <p>A Happy Place for Little Learners</p>
+<header class="hero">
+  <h1>🌟 Kids Camp Bettiah 🌟</h1>
+  <p>Where Little Minds Grow Big Dreams</p>
+  <a href="#enquiry" class="btn">Enquire Now</a>
 </header>
 
-<nav>
-    <a href="#about">About Us</a>
-    <a href="#programs">Programs</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-    <h2>About Our School</h2>
-    <p>
-        Kids Camp Bettiah is a joyful learning school where children grow,
-        learn, and explore in a safe and caring environment.
-    </p>
+<section class="about">
+  <h2>About Our School</h2>
+  <p>
+    Kids Camp Bettiah is a caring and joyful preschool that focuses on
+    learning through play, creativity, and fun activities in a safe environment.
+  </p>
 </section>
 
-<section id="programs">
-    <h2>Our Programs</h2>
-    <ul>
-        <li>🎨 Play Group</li>
-        <li>📚 Nursery</li>
-        <li>✏️ LKG</li>
-        <li>📖 UKG</li>
-    </ul>
+<section class="programs">
+  <h2>Our Classes</h2>
+  <div class="cards">
+    <div class="card">🎈 Play Group</div>
+    <div class="card">🧸 Nursery</div>
+    <div class="card">✏️ LKG</div>
+    <div class="card">📘 UKG</div>
+  </div>
 </section>
 
-<section id="gallery">
-    <h2>School Activities</h2>
-    <p>Fun learning, games, art & creativity every day!</p>
+<section class="why">
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>✅ Safe & caring teachers</li>
+    <li>✅ Activity-based learning</li>
+    <li>✅ Clean & child-friendly campus</li>
+    <li>✅ Focus on overall development</li>
+  </ul>
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Address:</strong> Bettiah, Bihar</p>
-    <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
-    <p><strong>Email:</strong> kidscampbettiah@gmail.com</p>
+<section id="enquiry" class="enquiry">
+  <h2>Admission Enquiry</h2>
+  <p>Fill the form and we will contact you</p>
+
+  <!-- FORM -->
+  <form action="https://formspree.io/f/xxxxxx" method="POST">
+    <input type="text" name="parent_name" placeholder="Parent Name" required>
+    <input type="text" name="child_name" placeholder="Child Name" required>
+    <input type="number" name="age" placeholder="Child Age" required>
+    <input type="tel" name="phone" placeholder="Mobile Number" required>
+    <input type="email" name="email" placeholder="Email Address">
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Submit Enquiry</button>
+  </form>
 </section>
 
 <footer>
-    <p>© 2025 Kids Camp Bettiah. All Rights Reserved.</p>
+  <p>📍 Bettiah, Bihar</p>
+  <p>📞 +91-XXXXXXXXXX</p>
+  <p>© 2025 Kids Camp Bettiah</p>
 </footer>
 
 <script src="script.js"></script>
