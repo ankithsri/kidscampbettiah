@@ -1,92 +1,23 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fffaf0;
-  color: #333;
-}
-
-.hero {
-  background: linear-gradient(to right, #ffafcc, #bde0fe);
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 36px;
-}
-
-.hero p {
-  font-size: 18px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  background: #ff595e;
-  color: white;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 25px;
-}
-
-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.programs .cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.card {
-  background: #ffd166;
-  padding: 20px;
-  width: 150px;
-  border-radius: 15px;
-  font-size: 18px;
-}
-
-.why ul {
-  list-style: none;
-  padding: 0;
-}
-
-.why li {
-  margin: 10px 0;
-  font-size: 16px;
-}
-
-.enquiry form {
-  max-width: 400px;
-  margin: auto;
-}
-
-.enquiry input,
-.enquiry textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-.enquiry button {
-  background: #06d6a0;
-  color: white;
-  border: none;
-  padding: 12px;
-  width: 100%;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-footer {
-  background: #023047;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+body {margin:0;font-family:Arial,sans-serif;background:#fffaf0;color:#333;}
+header{background:#f7aef8;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;}
+header h1{margin:0;font-size:24px;}
+nav a{margin:0 10px;text-decoration:none;color:#222;font-weight:bold;}
+section.section{padding:40px 20px;text-align:center;}
+.feature-cards{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;}
+.feature{background:#ffd166;padding:15px;border-radius:10px;width:150px;font-weight:bold;}
+form input, form textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:5px;}
+.btn{background:#06d6a0;color:white;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block;margin-top:10px;}
+.whatsapp-btn{background:#25d366;}
+footer{background:#023047;color:white;padding:15px;text-align:center;}
+.slider{position:relative;max-width:100%;margin:auto;overflow:hidden;}
+.slide{display:none;width:100%;}
+.slide.active{display:block;}
+.prev, .next{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,0.5);color:white;padding:10px;border:none;cursor:pointer;}
+.gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;}
+.gallery img{width:200px;height:150px;object-fit:cover;border-radius:10px;}
+table{margin:auto;border-collapse:collapse;width:80%;}
+table, th, td{border:1px solid #333;}
+th, td{padding:10px;text-align:center;}
+.testimonials{max-width:600px;margin:auto;}
+.testimonial{display:none;padding:15px;border-left:5px solid #06d6a0;margin:15px 0;background:#f0f0f0;}
+.testimonial.active{display:block;}
